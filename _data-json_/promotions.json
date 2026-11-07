@@ -1,0 +1,177 @@
+[
+  {
+    "promotion_id": 1,
+    "product_id": 102,
+    "discount_percent": 10,
+    "description": "Black Friday",
+    "is_active": false
+  },
+  {
+    "promotion_id": 2,
+    "product_id": 110,
+    "discount_percent": 15,
+    "description": "Liquidação de Inverno",
+    "is_active": false
+  },
+  {
+    "promotion_id": 3,
+    "product_id": 122,
+    "discount_percent": 20,
+    "description": "Queima de Estoque",
+    "is_active": false
+  },
+  {
+    "promotion_id": 4,
+    "product_id": 95,
+    "discount_percent": 12,
+    "description": "Oferta Especial",
+    "is_active": false
+  },
+  {
+    "promotion_id": 5,
+    "product_id": 126,
+    "discount_percent": 25,
+    "description": "Aniversário da Loja",
+    "is_active": false
+  },
+  {
+    "promotion_id": 6,
+    "product_id": 93,
+    "discount_percent": 15,
+    "description": "Promoção de Páscoa",
+    "is_active": false
+  },
+  {
+    "promotion_id": 7,
+    "product_id": 91,
+    "discount_percent": 30,
+    "description": "Black Friday",
+    "is_active": false
+  },
+  {
+    "promotion_id": 8,
+    "product_id": 96,
+    "discount_percent": 18,
+    "description": "Semana do Músico",
+    "is_active": false
+  },
+  {
+    "promotion_id": 9,
+    "product_id": 99,
+    "discount_percent": 8,
+    "description": "Promoção de Páscoa",
+    "is_active": false
+  },
+  {
+    "promotion_id": 10,
+    "product_id": 116,
+    "discount_percent": 20,
+    "description": "Aniversário da Loja",
+    "is_active": false
+  },
+  {
+    "promotion_id": 11,
+    "product_id": 119,
+    "discount_percent": 10,
+    "description": "Liquidação de Inverno",
+    "is_active": false
+  },
+  {
+    "promotion_id": 12,
+    "product_id": 127,
+    "discount_percent": 10,
+    "description": "Oferta Especial",
+    "is_active": true
+  },
+  {
+    "promotion_id": 13,
+    "product_id": 134,
+    "discount_percent": 15,
+    "description": "Queima de Estoque",
+    "is_active": false
+  },
+  {
+    "promotion_id": 14,
+    "product_id": 121,
+    "discount_percent": 20,
+    "description": "Desconto Exclusivo",
+    "is_active": true
+  },
+  {
+    "promotion_id": 15,
+    "product_id": 106,
+    "discount_percent": 12,
+    "description": "Semana do Músico",
+    "is_active": false
+  },
+  {
+    "promotion_id": 16,
+    "product_id": 113,
+    "discount_percent": 25,
+    "description": "Black Friday",
+    "is_active": false
+  },
+  {
+    "promotion_id": 17,
+    "product_id": 125,
+    "discount_percent": 30,
+    "description": "Aniversário da Loja",
+    "is_active": false
+  },
+  {
+    "promotion_id": 18,
+    "product_id": 133,
+    "discount_percent": 5,
+    "description": "Oferta Especial",
+    "is_active": false
+  },
+  {
+    "promotion_id": 19,
+    "product_id": 90,
+    "discount_percent": 18,
+    "description": "Desconto Exclusivo",
+    "is_active": true
+  },
+  {
+    "promotion_id": 20,
+    "product_id": 140,
+    "discount_percent": 22,
+    "description": "Queima de Estoque",
+    "is_active": false
+  },
+  {
+    "promotion_id": 21,
+    "product_id": 139,
+    "discount_percent": 35,
+    "description": "Liquidação de Inverno",
+    "is_active": false
+  },
+  {
+    "promotion_id": 22,
+    "product_id": 96,
+    "discount_percent": 40,
+    "description": "Semana do Músico",
+    "is_active": false
+  },
+  {
+    "promotion_id": 23,
+    "product_id": 93,
+    "discount_percent": 10,
+    "description": "Promoção de Páscoa",
+    "is_active": false
+  },
+  {
+    "promotion_id": 24,
+    "product_id": 94,
+    "discount_percent": 8,
+    "description": "Desconto Exclusivo",
+    "is_active": true
+  },
+  {
+    "promotion_id": 25,
+    "product_id": 99,
+    "discount_percent": 14,
+    "description": "Aniversário da Loja",
+    "is_active": false
+  }
+]

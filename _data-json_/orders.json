@@ -1,0 +1,222 @@
+[
+  {
+    "order_id": 1,
+    "customer_id": 3,
+    "order_date": "2025-10-15",
+    "status": "delivered",
+    "total_brl": 11499.0,
+    "payment_method": "pix",
+    "tracking_code": "BRAB1234567BR",
+    "estimated_delivery": "2025-10-25",
+    "notes": null
+  },
+  {
+    "order_id": 2,
+    "customer_id": 7,
+    "order_date": "2025-11-02",
+    "status": "delivered",
+    "total_brl": 5999.0,
+    "payment_method": "credit_6x",
+    "tracking_code": "BRCX9876543BR",
+    "estimated_delivery": "2025-11-15",
+    "notes": null
+  },
+  {
+    "order_id": 3,
+    "customer_id": 12,
+    "order_date": "2025-11-20",
+    "status": "delivered",
+    "total_brl": 3450.0,
+    "payment_method": "credit_12x",
+    "tracking_code": "BRDZ4561230BR",
+    "estimated_delivery": "2025-12-05",
+    "notes": null
+  },
+  {
+    "order_id": 4,
+    "customer_id": 1,
+    "order_date": "2025-12-10",
+    "status": "delivered",
+    "total_brl": 799.9,
+    "payment_method": "boleto",
+    "tracking_code": "BRQM7890123BR",
+    "estimated_delivery": "2025-12-22",
+    "notes": null
+  },
+  {
+    "order_id": 5,
+    "customer_id": 5,
+    "order_date": "2026-01-05",
+    "status": "delivered",
+    "total_brl": 4599.0,
+    "payment_method": "pix",
+    "tracking_code": "BRTP3456789BR",
+    "estimated_delivery": "2026-01-18",
+    "notes": null
+  },
+  {
+    "order_id": 6,
+    "customer_id": 9,
+    "order_date": "2026-01-18",
+    "status": "delivered",
+    "total_brl": 7499.0,
+    "payment_method": "credit_12x",
+    "tracking_code": "BRVN6543210BR",
+    "estimated_delivery": "2026-02-01",
+    "notes": null
+  },
+  {
+    "order_id": 7,
+    "customer_id": 14,
+    "order_date": "2026-02-03",
+    "status": "delivered",
+    "total_brl": 159.9,
+    "payment_method": "credit_3x",
+    "tracking_code": "BRKR1122334BR",
+    "estimated_delivery": "2026-02-17",
+    "notes": null
+  },
+  {
+    "order_id": 8,
+    "customer_id": 2,
+    "order_date": "2026-02-15",
+    "status": "shipped",
+    "total_brl": 349.9,
+    "payment_method": "debit",
+    "tracking_code": "BRJL5544332BR",
+    "estimated_delivery": "2026-02-28",
+    "notes": null
+  },
+  {
+    "order_id": 9,
+    "customer_id": 6,
+    "order_date": "2026-02-20",
+    "status": "confirmed",
+    "total_brl": 349.9,
+    "payment_method": "credit_6x",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 10,
+    "customer_id": 11,
+    "order_date": "2026-02-25",
+    "status": "confirmed",
+    "total_brl": 8732.0,
+    "payment_method": "pix",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 11,
+    "customer_id": 4,
+    "order_date": "2026-03-05",
+    "status": "confirmed",
+    "total_brl": 359.0,
+    "payment_method": "boleto",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 12,
+    "customer_id": 16,
+    "order_date": "2026-03-10",
+    "status": "confirmed",
+    "total_brl": 599.0,
+    "payment_method": "credit_3x",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 13,
+    "customer_id": 8,
+    "order_date": "2026-03-12",
+    "status": "pending",
+    "total_brl": 1899.0,
+    "payment_method": "pix",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 14,
+    "customer_id": 13,
+    "order_date": "2026-03-15",
+    "status": "pending",
+    "total_brl": 1749.0,
+    "payment_method": "debit",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 15,
+    "customer_id": 18,
+    "order_date": "2026-03-18",
+    "status": "pending",
+    "total_brl": 8348.0,
+    "payment_method": "credit_12x",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 16,
+    "customer_id": 10,
+    "order_date": "2026-03-22",
+    "status": "pending",
+    "total_brl": 429.9,
+    "payment_method": "credit_6x",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": null
+  },
+  {
+    "order_id": 17,
+    "customer_id": 15,
+    "order_date": "2026-01-28",
+    "status": "cancelled",
+    "total_brl": 689.0,
+    "payment_method": "pix",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": "Pedido cancelado pelo cliente antes do processamento"
+  },
+  {
+    "order_id": 18,
+    "customer_id": 17,
+    "order_date": "2026-02-08",
+    "status": "cancelled",
+    "total_brl": 459.9,
+    "payment_method": "credit_12x",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": "Item fora de estoque no momento do pedido"
+  },
+  {
+    "order_id": 19,
+    "customer_id": 3,
+    "order_date": "2026-02-22",
+    "status": "cancelled",
+    "total_brl": 7499.0,
+    "payment_method": "boleto",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": "Pagamento não confirmado dentro do prazo"
+  },
+  {
+    "order_id": 20,
+    "customer_id": 7,
+    "order_date": "2026-03-08",
+    "status": "cancelled",
+    "total_brl": 1400.0,
+    "payment_method": "credit_3x",
+    "tracking_code": null,
+    "estimated_delivery": null,
+    "notes": "Endereço de entrega inválido informado pelo cliente"
+  }
+]

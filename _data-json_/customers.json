@@ -1,0 +1,352 @@
+[
+  {
+    "customer_id": 1,
+    "name": "Lucas Mendes da Silva",
+    "phone": "(67) 99812-3456",
+    "email": "lucas.mendes@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 2,
+    "name": "Ana Carolina Ferreira",
+    "phone": "(67) 99654-7821",
+    "email": "anacarol.ferreira@coldmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 3,
+    "name": "Pedro Henrique Oliveira",
+    "phone": "(67) 98432-1098",
+    "email": "pedro.oliveira@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 4,
+    "name": "Mariana Costa Santos",
+    "phone": "(67) 99123-4567",
+    "email": "mariana.costa@inlook.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 5,
+    "name": "Rafael Augusto Pereira",
+    "phone": "(67) 98765-4321",
+    "email": "rafael.pereira@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 6,
+    "name": "Juliana Almeida Rodrigues",
+    "phone": "(67) 99234-5678",
+    "email": "juliana.almeida@hayoo.com.br",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 7,
+    "name": "Thiago Barbosa Lima",
+    "phone": "(67) 98321-6543",
+    "email": "thiago.barbosa@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 8,
+    "name": "Fernanda Ribeiro Souza",
+    "phone": "(67) 99456-7890",
+    "email": "fernanda.ribeiro@coldmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 9,
+    "name": "Gabriel Santos Araújo",
+    "phone": "(67) 98654-3210",
+    "email": "gabriel.araujo@jmail.com",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 10,
+    "name": "Camila Duarte Nascimento",
+    "phone": "(67) 99567-8901",
+    "email": "camila.duarte@inlook.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 11,
+    "name": "Bruno Carvalho Martins",
+    "phone": "(67) 98543-2109",
+    "email": "bruno.martins@jmail.com",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 12,
+    "name": "Isabela Moreira Cunha",
+    "phone": "(67) 99678-9012",
+    "email": "isabela.moreira@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 13,
+    "name": "Diego Fernandes Castro",
+    "phone": "(67) 98210-9876",
+    "email": "diego.castro@coldmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 14,
+    "name": "Letícia Gonçalves Rocha",
+    "phone": "(67) 99789-0123",
+    "email": "leticia.rocha@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 15,
+    "name": "Matheus Ramos Correia",
+    "phone": "(67) 98109-8765",
+    "email": "matheus.correia@hayoo.com.br",
+    "city": "Corumbá"
+  },
+  {
+    "customer_id": 16,
+    "name": "Patrícia Vieira Cardoso",
+    "phone": "(67) 99890-1234",
+    "email": "patricia.cardoso@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 17,
+    "name": "Gustavo Teixeira Nunes",
+    "phone": "(67) 98098-7654",
+    "email": "gustavo.nunes@inlook.com",
+    "city": "Ponta Porã"
+  },
+  {
+    "customer_id": 18,
+    "name": "Aline Borges Monteiro",
+    "phone": "(67) 99901-2345",
+    "email": "aline.monteiro@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 19,
+    "name": "Rodrigo Silva",
+    "phone": "(67) 99111-2222",
+    "email": "rodrigo.silva@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 20,
+    "name": "Amanda Lima",
+    "phone": "(67) 99222-3333",
+    "email": "amanda.lima@coldmail.com",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 21,
+    "name": "Felipe Gomes",
+    "phone": "(67) 99333-4444",
+    "email": "felipe.gomes@jmail.com",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 22,
+    "name": "Beatriz Rocha",
+    "phone": "(67) 99444-5555",
+    "email": "beatriz.rocha@inlook.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 23,
+    "name": "Marcelo Dias",
+    "phone": "(67) 99555-6666",
+    "email": "marcelo.dias@hayoo.com.br",
+    "city": "Corumbá"
+  },
+  {
+    "customer_id": 24,
+    "name": "Camila Alves",
+    "phone": "(67) 99666-7777",
+    "email": "camila.alves@jmail.com",
+    "city": "Ponta Porã"
+  },
+  {
+    "customer_id": 25,
+    "name": "Thiago Costa",
+    "phone": "(67) 99777-8888",
+    "email": "thiago.costa@coldmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 26,
+    "name": "Larissa Mendes",
+    "phone": "(67) 99888-9999",
+    "email": "larissa.mendes@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 27,
+    "name": "Bruno Carvalho",
+    "phone": "(67) 99999-0000",
+    "email": "bruno.carvalho@inlook.com",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 28,
+    "name": "Juliana Castro",
+    "phone": "(67) 99000-1111",
+    "email": "juliana.castro@jmail.com",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 29,
+    "name": "Leonardo Santos",
+    "phone": "(67) 99123-9876",
+    "email": "leonardo.santos@hayoo.com.br",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 30,
+    "name": "Natália Martins",
+    "phone": "(67) 99876-1234",
+    "email": "natalia.martins@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 31,
+    "name": "Joao Silva",
+    "phone": "(67) 99111-1234",
+    "email": "joao.silva@jmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 32,
+    "name": "Maria Oliveira",
+    "phone": "(67) 99222-2345",
+    "email": "maria.oliveira@coldmail.com",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 33,
+    "name": "Carlos Souza",
+    "phone": "(67) 99333-3456",
+    "email": "carlos.souza@inlook.com",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 34,
+    "name": "Ana Costa",
+    "phone": "(67) 99444-4567",
+    "email": "ana.costa@hayoo.com.br",
+    "city": "Corumbá"
+  },
+  {
+    "customer_id": 35,
+    "name": "Pedro Santos",
+    "phone": "(67) 99555-5678",
+    "email": "pedro.santos@jmail.com",
+    "city": "Ponta Porã"
+  },
+  {
+    "customer_id": 36,
+    "name": "Paula Lima",
+    "phone": "(67) 99666-6789",
+    "email": "paula.lima@coldmail.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 37,
+    "name": "Lucas Pereira",
+    "phone": "(67) 99777-7890",
+    "email": "lucas.pereira@inlook.com",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 38,
+    "name": "Julia Carvalho",
+    "phone": "(67) 99888-8901",
+    "email": "julia.carvalho@hayoo.com.br",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 39,
+    "name": "Marcos Rodrigues",
+    "phone": "(67) 99999-9012",
+    "email": "marcos.rodrigues@jmail.com",
+    "city": "Corumbá"
+  },
+  {
+    "customer_id": 40,
+    "name": "Fernanda Almeida",
+    "phone": "(67) 99123-0123",
+    "email": "fernanda.almeida@coldmail.com",
+    "city": "Ponta Porã"
+  },
+  {
+    "customer_id": 41,
+    "name": "Rafael Alves",
+    "phone": "(67) 99234-1234",
+    "email": "rafael.alves@inlook.com",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 42,
+    "name": "Camila Ribeiro",
+    "phone": "(67) 99345-2345",
+    "email": "camila.ribeiro@hayoo.com.br",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 43,
+    "name": "Bruno Martins",
+    "phone": "(67) 99456-3456",
+    "email": "bruno.martins@jmail.com",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 44,
+    "name": "Leticia Gomes",
+    "phone": "(67) 99567-4567",
+    "email": "leticia.gomes@coldmail.com",
+    "city": "Corumbá"
+  },
+  {
+    "customer_id": 45,
+    "name": "Thiago Dias",
+    "phone": "(67) 99678-5678",
+    "email": "thiago.dias@inlook.com",
+    "city": "Ponta Porã"
+  },
+  {
+    "customer_id": 46,
+    "name": "Amanda Rocha",
+    "phone": "(67) 99789-6789",
+    "email": "amanda.rocha@hayoo.com.br",
+    "city": "Campo Grande"
+  },
+  {
+    "customer_id": 47,
+    "name": "Diego Castro",
+    "phone": "(67) 99890-7890",
+    "email": "diego.castro@jmail.com",
+    "city": "Dourados"
+  },
+  {
+    "customer_id": 48,
+    "name": "Beatriz Mendes",
+    "phone": "(67) 99901-8901",
+    "email": "beatriz.mendes@coldmail.com",
+    "city": "Três Lagoas"
+  },
+  {
+    "customer_id": 49,
+    "name": "Felipe Nunes",
+    "phone": "(67) 99012-9012",
+    "email": "felipe.nunes@inlook.com",
+    "city": "Corumbá"
+  },
+  {
+    "customer_id": 50,
+    "name": "Mariana Cardoso",
+    "phone": "(67) 99123-1111",
+    "email": "mariana.cardoso@hayoo.com.br",
+    "city": "Ponta Porã"
+  }
+]
