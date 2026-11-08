@@ -101,7 +101,9 @@ The prompt in `prompt.py` defines Buddy's friendly persona, limits its scope to
 products sold by the store, and instructs the model not to invent prices,
 inventory information, or policies. The store manual is the source of truth
 for policy-related answers. Order lookups are handled outside the model using
-the local validation described above.
+the local validation described above. The agent responds in Portuguese because
+the store is located in Brazil and its target customers are primarily
+Portuguese speakers.
 
 ### Conversation history
 
