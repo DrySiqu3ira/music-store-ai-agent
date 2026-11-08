@@ -1,3 +1,4 @@
 .env
+buddy_errors.log
 __pycache__/
 *.py[cod]
