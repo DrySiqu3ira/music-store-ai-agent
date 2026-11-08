@@ -1,6 +1,6 @@
 import json
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from agent import (
     create_chat,
@@ -103,9 +103,36 @@ class TestStoreAssistant(unittest.TestCase):
             patch("builtins.input", side_effect=[message, "sair"]),
             patch("builtins.print"),
         ):
+            create_chat.return_value = (Mock(), Mock())
             start_chat()
 
-        create_chat.return_value.send_message.assert_not_called()
+        client, chat = create_chat.return_value
+        chat.send_message.assert_not_called()
+        client.close.assert_called_once()
+
+    def test_chat_keeps_client_open_until_session_ends(self):
+        order = next(item for item in self.orders if item["order_id"] == 1)
+        customer = next(
+            item for item in self.customers
+            if item["customer_id"] == order["customer_id"]
+        )
+        inputs = [
+            "Quais violões vocês têm?",
+            f"Qual o status do pedido 1? Meu e-mail é {customer['email']}",
+            "sair",
+        ]
+        client = Mock()
+        chat = Mock()
+
+        with (
+            patch("agent.create_chat", return_value=(client, chat)),
+            patch("builtins.input", side_effect=inputs),
+            patch("builtins.print"),
+        ):
+            start_chat()
+
+        chat.send_message.assert_called_once()
+        client.close.assert_called_once()
 
 
 if __name__ == "__main__":

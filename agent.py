@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import logging
 import unicodedata
 from datetime import date
 from pathlib import Path
@@ -10,6 +11,12 @@ from prompt import SYSTEM_PROMPT
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "_data-json_"
 
+logging.basicConfig(
+    filename=str(BASE_DIR / "buddy_errors.log"),
+    level=logging.ERROR,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    encoding="utf-8"
+)
 
 def load_json(file_name):
     file_path = DATA_DIR / file_name
@@ -122,6 +129,7 @@ def get_order_status_response(question, orders, customers):
     status_keywords = {
         "status", "rastrear", "rastreamento", "chegou", "acompanhar",
         "localizar", "onde", "enviado", "andamento",
+        "consultar", "consulta",
     }
     if "pedido" not in normalized_question or not any(
         keyword in normalized_question for keyword in status_keywords
@@ -172,6 +180,7 @@ def get_order_status_response(question, orders, customers):
 
     readable_status = {
         "pending": "aguardando confirmação",
+        "confirmed": "confirmado",
         "processing": "em preparação",
         "shipped": "enviado",
         "delivered": "entregue",
@@ -209,13 +218,13 @@ def create_chat():
         f"{SYSTEM_PROMPT}\n\nMANUAL DE POLÍTICAS DA LOJA:\n{policy_text}"
     )
     client = genai.Client(api_key=api_key)
-    return client.chats.create(
+    chat = client.chats.create(
         model="gemini-3.8-flash",
         config={
             "system_instruction": system_context,
-            "temperature": 0.3,
         },
     )
+    return client, chat
 
 
 def start_chat():
@@ -225,41 +234,51 @@ def start_chat():
     categories = load_json("categories.json")
     orders = load_json("orders.json")
     customers = load_json("customers.json")
-    chat = create_chat()
+    client, chat = create_chat()
+    try:
+        print("\n" + "=" * 60)
+        print("🎸 Olá! O Buddy (Assistente da Empório da Música) está online.")
+        print("Digite sua mensagem para conversar ou digite 'sair' para encerrar.")
+        print("=" * 60 + "\n")
 
-    print("\n" + "=" * 60)
-    print("🎸 Olá! O Buddy (Assistente da Empório da Música) está online.")
-    print("Digite sua mensagem para conversar ou digite 'sair' para encerrar.")
-    print("=" * 60 + "\n")
+        while True:
+            try:
+                user_message = input("Cliente: ")
+                if user_message.strip().lower() in ["sair", "exit", "quit"]:
+                    print(
+                        "\nBuddy: Foi um prazer ajudar! "
+                        "Volte sempre à Empório da Música. 🎶"
+                    )
+                    break
 
-    while True:
-        try:
-            user_message = input("Cliente: ")
-            if user_message.strip().lower() in ["sair", "exit", "quit"]:
-                print("\nBuddy: Foi um prazer ajudar! Volte sempre à Empório da Música. 🎶")
+                if not user_message.strip():
+                    continue
+
+                order_response = get_order_status_response(
+                    user_message, orders, customers
+                )
+                if order_response is not None:
+                    print(f"\nBuddy: {order_response}\n" + "-" * 40)
+                    continue
+
+                catalog_context = search_relevant_data(
+                    user_message, products, promotions, categories
+                )
+                response = chat.send_message(user_message + catalog_context)
+                print(f"\nBuddy: {response.text}\n" + "-" * 40)
+
+            except KeyboardInterrupt:
+                print("\n\nEncerrando o atendimento do Buddy. Até mais!")
                 break
-
-            if not user_message.strip():
-                continue
-
-            order_response = get_order_status_response(
-                user_message, orders, customers
-            )
-            if order_response is not None:
-                print(f"\nBuddy: {order_response}\n" + "-" * 40)
-                continue
-
-            catalog_context = search_relevant_data(
-                user_message, products, promotions, categories
-            )
-            response = chat.send_message(user_message + catalog_context)
-            print(f"\nBuddy: {response.text}\n" + "-" * 40)
-
-        except KeyboardInterrupt:
-            print("\n\nEncerrando o atendimento do Buddy. Até mais!")
-            break
-        except Exception as error:
-            print(f"\nOps! Ocorreu um erro ao processar sua mensagem: {error}\n")
+            except Exception:
+                logging.exception("ERRO inesperado durante o atendimento.")
+                print(
+                    "\nBuddy: Desculpe, não consegui processar sua solicitação "
+                    "neste momento. Por favor, tente novamente ou entre em contato "
+                    "com nossa equipe de atendimento.\n"
+                )
+    finally:
+        client.close()
 
 
 if __name__ == "__main__":
